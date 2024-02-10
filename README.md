@@ -8,6 +8,13 @@ Simple Static Hosting is a lightweight tool to manage and host static files. It 
 2. **Static File Hosting:** Host static files easily with a simple button click.
 3. **Copy HTML Tags:** Quickly copy HTML tags for js, css, and image files to embed them in your HTML.
 
+## Demo
+
+Check out the [Simple Static Hosting Demo](https://static-ruccess.vercel.app/).
+
+![Demo Image](.vercel/demo.png)
+
+
 # Getting Started
 
 1. Fork this repository.
@@ -39,6 +46,24 @@ Example structure:
 ]
 ```
 
+Static files for your project are located in the .vercel/output/static directory.
+
+```
+.vercel/output/
+└── static/
+    ├── index.html
+    ├── script.js
+    ├── domain.js
+    └── style.css
+    ├── images/
+    │   ├── kirby.png
+    │   └── denne.png
+    └── pomodoro/
+        ├── pomodoro.js
+        └── style.css
+```
+
+
 ## Deployment
 
 ### Method 1: Using Vercel CLI
@@ -67,7 +92,7 @@ Example structure:
 4. Save the changes.
 
 
-   ![Vercel Authentication Toggle](.vercel/img.png)
+   ![Vercel Authentication Toggle](.vercel/vercel.setting.png)
 ### Vercel Documentation
 
 For more details on deploying and configuring static files, refer to the [Vercel Documentation](https://vercel.com/docs/build-output-api/v3/primitives#static-files).
