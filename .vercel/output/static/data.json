@@ -1,0 +1,23 @@
+{
+  "domains": [
+    "https://static-ruccess.vercel.app",
+    "http://localhost:63342/static/.vercel/output/static"
+  ],
+  "fileData": [
+    { "fileName": "script.js", "description": "Description for file 1", "type": "js" },
+    { "fileName": "domain.js", "description": "Description for file 1", "type": "js" },
+    { "fileName": "style.css", "description": "Description for file 2", "type": "css" },
+    {
+      "fileName": "images", "type": "folder", "children": [
+      { "fileName": "kirby.png", "description": "Kirby Image", "type": "image" },
+      { "fileName": "denne.png", "description": "denne Image", "type": "text" }
+    ]
+    },
+    {
+      "fileName": "pomodoro", "type": "folder", "children": [
+      { "fileName": "pomodoro.js", "description": "pomodoro js", "type": "js" },
+      { "fileName": "style.css", "description": "pomodoro css", "type": "css" }
+    ]
+    }
+  ]
+}

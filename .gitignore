@@ -1,0 +1,8 @@
+# vercel
+.vercel/project.json
+
+# IntelliJ IDEA
+.idea/
+
+# Visual Studio Code
+.vscode/

@@ -1,0 +1,115 @@
+/* style.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    background-color: #f2f2f2;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#domain {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 600px) {
+    #domain {
+        width: 80%;
+        max-width: 400px;
+    }
+}
+
+.tree-container {
+    width: 100%;
+    max-width: 600px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    position: relative;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: transform 0.2s ease-in-out;
+    border-left: 2px solid #ddd;
+}
+
+li:hover {
+    transform: scale(1.02);
+}
+
+.copyButton {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    padding: 8px 16px;
+    background-color: #3498db; /* 변경된 색상 */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.copyButton:hover {
+    background-color: #2980b9; /* 변경된 색상 */
+}
+
+img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-top: 10px;
+    display: none;
+}
+
+.folder-icon::before {
+    content: '📁';
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.file-icon::before {
+    content: '📄';
+    margin-right: 5px;
+}
+
+/* 추가된 스타일 */
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: transform 0.2s ease-in-out;
+}
+
+a {
+    text-decoration: none; /* 하이퍼링크에 밑줄 제거 */
+}
+
+/* 추가된 스타일: 간격과 글씨체 색상 조정 */
+a, span {
+    margin-right: 10px; /* 파일명과 description 간격 조정 */
+    color: #333; /* 글씨체 색상 조정 */
+}
