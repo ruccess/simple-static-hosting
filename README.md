@@ -67,7 +67,7 @@ Example structure:
 4. Save the changes.
 
 
-   ![Vercel Authentication Toggle](img.png)
+   ![Vercel Authentication Toggle](.vercel/img.png)
 ### Vercel Documentation
 
 For more details on deploying and configuring static files, refer to the [Vercel Documentation](https://vercel.com/docs/build-output-api/v3/primitives#static-files).
